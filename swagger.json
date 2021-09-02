@@ -1,0 +1,25 @@
+{
+	"definition": {
+		"openapi": "3.0.1",
+		"info": {
+			"title": "API Blog",
+			"version": "1.0.0",
+			"description": "This is a blog api."
+		},
+		"components": {
+			"securitySchemes": {
+				"bearerAuth": {
+					"type": "http",
+					"scheme": "bearer",
+					"bearerFormat": "JWT"
+				}
+			}
+		},
+		"servers": [
+			{
+				"url": "http://localhost:3002"
+			}
+		]
+	},
+	"apis": ["./src/routes/*.js"]
+}

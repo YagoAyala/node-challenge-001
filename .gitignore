@@ -1,0 +1,5 @@
+# Dependencies
+node_modules
+
+# I didn't put the dotenv here, as I believe it is not necessary in this challenge.
+
